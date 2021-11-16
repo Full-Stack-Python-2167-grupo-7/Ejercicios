@@ -20,4 +20,5 @@ def caracteresMasRepetidos(cadena):
             diccionario[i] += 1
         else:
             diccionario[i] = 1
-    return diccionario
+    diccionarioOrdenado = sorted(diccionario.items(), key=lambda x: x[1], reverse=True)
+    return diccionarioOrdenado[:3]

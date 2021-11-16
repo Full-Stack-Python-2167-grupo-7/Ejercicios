@@ -11,3 +11,6 @@ print(intercambiarMayusculasyMinusculas(micadena))
 #Extra a
 numero=int(input("Ingrese un numero: "))
 imprimeTriangulo(numero)
+#Extra b
+micadena=str(input("Ingrese una cadena: "))
+print(caracteresMasRepetidos(micadena))
