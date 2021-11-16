@@ -8,3 +8,6 @@ print(reemplazarespacios(micadena))
 # "Hola Mundo" -> "hOLA mUNDO"). Tiene como limite 100 caracteres.
 micadena=str(input("Ingrese una cadena: "))
 print(intercambiarMayusculasyMinusculas(micadena))
+#Extra a
+numero=int(input("Ingrese un numero: "))
+imprimeTriangulo(numero)
