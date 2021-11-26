@@ -1,3 +1,4 @@
+
 # Ejercicio 1
 def reemplazarespacios(cadena):
     return cadena.replace(" ", "_")
@@ -22,3 +23,4 @@ def caracteresMasRepetidos(cadena):
             diccionario[i] = 1
     diccionarioOrdenado = sorted(diccionario.items(), key=lambda x: x[1], reverse=True)
     return diccionarioOrdenado[:3]
+
